@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 20px 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  margin-bottom: 50px;
+}
+thead {
+  background-color: rgb(18, 161, 123);
+  color: white;
+}
+th,
+td {
+  /* border: 1px solid rgba(0, 0, 0, 0.17); */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.17);
+  padding: 12px;
+  text-align: center;
+}
+
+.buttonContainer {
+    display: block;
+}
+
+button {
+    background-color: rgb(18, 161, 123);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px;
+}
+button:active{
+    background-color: rgb(13, 136, 103);
+}
+
+button:disabled{
+    background-color: rgb(184, 235, 222);
+}
