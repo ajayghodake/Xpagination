@@ -27,21 +27,30 @@ td {
 }
 
 .buttonContainer {
-    display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pageNo {
+  border-radius: 4px;
+  background-color: rgb(18, 161, 123);
+  color: white;
+  padding: 7px 14px;
 }
 
 button {
-    background-color: rgb(18, 161, 123);
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 4px;
-    margin: 10px;
+  background-color: rgb(18, 161, 123);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 10px;
 }
-button:active{
-    background-color: rgb(13, 136, 103);
+button:active {
+  background-color: rgb(13, 136, 103);
 }
 
-button:disabled{
-    background-color: rgb(184, 235, 222);
+button:disabled {
+  background-color: rgb(184, 235, 222);
 }
