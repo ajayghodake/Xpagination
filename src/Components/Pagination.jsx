@@ -15,6 +15,7 @@ useEffect(()=>{
             const data = res.data;
             setUserData(data);
         }catch(error) {
+            alert("Failed to fetch data");
             console.error("failed to fetch data");
         }
     }
