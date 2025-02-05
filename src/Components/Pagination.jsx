@@ -67,12 +67,12 @@ export default function Pagination() {
           </tbody>
         </table>
         <div className={style.buttonContainer}>
-          <button onClick={handlePrevious} disabled={currentPage === "1"}>
+          <button onClick={handlePrevious} disabled={currentPage === 1}>
             Previous
           </button>
-          <div className={style.pageNo}>
+          <p className={style.pageNo}>
             {currentPage}
-          </div>
+          </p>
           {/* <span> Page {currentPage} of {totalPages} </span> */}
           <button onClick={handleNext} disabled={currentPage === totalPages}>
             Next
